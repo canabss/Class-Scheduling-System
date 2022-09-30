@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=UnifrakturCook:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+  }
+  b{
+          color:orange;
+          font-size:6vh;
+          font-family:Florence, cursive;
+  }
+p{
+        font-size:3vh;
+}
+header{
+  background:url(images/h1.png) no-repeat;
+  background-size:cover;
+  color:black;
+  background-position:center;
+  padding-top:20px;
+  min-height:60px;
+  border-bottom:#e8491d 3px solid;
+  font-family: 'UnifrakturCook', cursive;
+}
+box1{
+    border:0;
+    text-align:left;
+    display:block;
+    margin: 20px auto;
+    position: center;
+    border:lightblue 1px solid;
+    background: white;
+    width: 100 px;
+    outline:none;   
+    color:black;
+    padding:14px, 10px;
+}
+
+ /* menu */
+div.menu {
+  background-color: maroon;
+  overflow: auto;
+  white-space: nowrap;
+  
+}
+div.menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+
+nav a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+nav a:hover{
+        color:orange;
+        
+}
+nav p{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+nav p:hover{
+        color:orange;
+        
+}
+
+nav li{
+ 
+  display:inline;
+  text-decoration:none;
+ 
+  
+}
+
+nav .current{
+        border-bottom-style:solid;
+        border-color:orange;
+
+}
+
+body{
+        min-height:100vh;
+        background:white;
+        font-family: 'Lato', sans-serif;
+
+
+}
+
+/* showcase */
+#shw{
+  min-height:40vh;
+  background:url(images/s.jpeg) no-repeat;
+  background-position: center;
+  background-size: 100vh;
+  text-align:center;
+  color:#ffffff;
+  margin:none;
+}
+#showcase{
+  min-height:400px;
+  background:url(images/bccc.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:#ffffff;
+}
+#showcase p{
+      text-align:center;  
+      color:maroon;
+      font-size:20px;
+}
+#showcase b{
+      color:red;
+      font-family:Florence, cursive;
+      font-size:40px;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 60%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 40%;
+  padding-left: 20px;
+ 
+}
+
+.card {
+   background-color: maroon;
+   padding: 20px;
+   margin-top: 20px;
+   color:white;
+   border:3px solid orange;
+   border-radius: 20px;
+}
+.cards {
+   float: right;
+   border:3px solid orange;
+   border-radius: 20px;
+   display: block
+}
+
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: maroon;
+  margin-top: 20px;
+  color:white;
+}
+
+fieldset{
+     text-align:center;
+        border:none;
+}
+
+.box input[type="text"], .box input[type="password"]
+{
+    border:0;
+    text-align:center;
+    display:block;
+    margin: 20px auto;
+    position: center;
+    border-bottom:lightblue 1px solid;
+    background: none;
+    width: 100 px;
+    outline:none;   
+    color:white;
+    padding:14px, 10px;
+    
+    
+    
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+        
+        border-color: orange;
+}
+
+#btn{
+        background:maroon;
+        border-radius: 24px;
+        color:white;
+        padding:5px 15px;
+        border:2px solid orange;
+        outline:none;   
+}
+#btns:hover{
+        border:2px maroon;
+        background:orange;
+}
+
+/* flipcard */
+
+.flip-card {
+  background-color: transparent;
+  min-width: 300px;
+  height:300px;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  padding:14px, 10 px;
+  background-color:  orange;
+  color: orange;
+}
+.flip-card-back {
+  padding:20px;
+  background-color: maroon;
+  color: white;
+  transform: rotateY(180deg);
+}
+.lc{   
+margin-top: 20px;
+  float: left;
+  width: 50%;
+  background:white;
+}
+
+.rc {
+margin-top: 20px;
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  margin:none;
+  
+  background:white;
+}
+
+.crd {
+   
+   background:url(images/bsu1.png) no-repeat;
+   background-size:300px;
+   background-position:center;
+   padding: none;
+   margin: 20px;
+   color:black;
+   text-align:center;
+   height:500px;
+ 
+}
+
+.rw:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* table */
+
+
+td{
+        padding:none;
+}
+td.s{
+      padding:60px;
+}
+#sc table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  
+}
+
+#sc th, td {
+  text-align: left;
+  padding: 8px;
+  
+}
+#sc th {
+  background:maroon;
+  color:white;
+}
+
+#sc td.i1{
+        background: orange;
+}
+#sc td.i2{
+        background: green;
+}
+#sc td.i3{
+        background: pink;
+}
+ #sc td.i4{
+        background: gray;
+}
+#sc   td.i5{
+        background: lightgray;
+}
+#sc  td.i6{
+        background: lightblue;
+}
+#sc td.i7{
+        background: lightgreen;
+}
+#sc  td.i8{
+        background: yellowgreen;
+}
+
+/* content */
+
+.left {   
+  float: left;
+  width: 20%;
+  
+}
+
+.right {
+  float: left;
+  width: 25%;
+  padding-left:5px;
+ 
+}
+.center{
+  float: left;
+  width: 55%;
+  padding-left:5px;
+  }
+.l {   
+  float: left;
+  width: 25%;
+}
+
+.r{
+  float: right;
+  width: 75%;
+  padding-left: 20px;
+}
+.r1{
+  width: 100%;
+  padding: 20px;
+}
+/* pop up form */
+.start {
+  
+  top:30%;
+  left:25%;
+}
+
+.main {
+  position: absolute;
+  width:450px;
+  height:auto;
+  text-align: center;
+  color: white;
+  background:maroon;
+  border-radius:20px;
+  box-shadow: 20px;
+  padding: 20px;
+}
+
+.bg-modal {
+  justify-content:center;
+ 
+  display: flex;
+ 
+  margin: auto;
+  min-height: 500px;
+  min-width:200px ;
+}
+
+
+.main .data{
+  width: 100%;
+ 
+
+}
+input {
+  width:85%;
+  height:30px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items:center;
+}
+
+.radio {
+  padding-left:20px;
+  text-align:center;
+}
+
+.radio input{
+  padding-bottom:5px;
+  padding-left:18px;
+  width:15px;
+  height: 15px;
+  margin: 10px auto;
+  align-items:center;
+  text-align:left;
+}
+
+.close1 {
+  position:absolute;
+  top:17px;
+  right:25px;
+  font-size: 24px;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.button {
+  background:orange;
+  border-radius: 5px;
+  color:white;
+  padding:40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border:2px solid orange;
+  outline:none;
+  float: right;
+  
+}
+
+.button3:hover {
+  background:white;
+  color:orange;
+}
+.button:hover {
+  background:white;
+  color:orange;
+}
+
+input:active {
+  border:1px solid orange;
+}
+
+label {
+  font-size:13px;
+}
+
+.button2 {
+  height: 30px;
+  width: 70px;
+  background:orange;
+  border-radius: 5px;
+  color:white;
+  margin: 3px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border:2px solid orange;
+  outline:none;
+}
+
+.button2:hover {
+  background:white;
+  color:orange;
+}
+
+/* collapsible */
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none; 
+  border-radius: 10px;
+  text-align: left;
+  outline: none;
+  font-size: 24.3px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+  table { 
+    
+  
+  width: 100%;
+  border-collapse: collapse; }
+  table th { 
+  min-size: 30px;}
+  /* Zebra striping */ 
+ tr:nth-of-type(odd) { 
+  background: #eee; 
+  } 
+ th {
+   
+  background: maroon; 
+  color: white; 
+  font-weight: bold;
+   }
+td,th { 
+   
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    }
+
+@media (max-width:800px){
+     
+.leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  .lc, .rc {   
+    width: 100%;
+    padding: 0;
+  }
+  .left, .right, .center,.l,.r{   
+    width: 100%;
+    padding: 0;
+  }
+  
+ .flip-card{
+        width:100%;
+        height:300px;
+ }
+.bg-modal {
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  top:0;
+  left: 0;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  display: none;
+  margin: auto;
+}
+  
+}
+
